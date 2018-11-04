@@ -1,0 +1,17 @@
+<!-- 课程模板  -->
+<template name="course">
+  <view class="recom-img">
+    <image src="{{imgSrc}}"></image>
+  </view>
+  <view class="course-title">
+    {{title}}
+  </view>
+  <view class="clear course-info">
+    <view class="left count">
+      <text class="fa fa-user-circle"></text> {{count}}
+    </view>
+    <view class="right price">
+      ￥{{price}}
+    </view>
+  </view>
+</template>

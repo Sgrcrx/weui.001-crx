@@ -1,0 +1,54 @@
+<!--  -->
+
+<!-- <import src="/pages/common/class.wxml" /> -->
+
+<import src="/pages/common/navItem.wxml" />
+<!-- 轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!--quick-nav  -->
+<view class='quick-nav'>
+  <view class="weui-flex">
+    <view class="weui-flex_item" wx:for="{{nav1}}">
+      <template is="nav-item" data="{{...item}}"></template>
+    </view>
+  </view>
+</view>
+
+<!-- 推荐课程 -->
+
+<!-- <view class='list class1'>
+  <view class="weui-flex clear">
+    <view class="weui-flex_item li" wx:for="{{class1}}">
+      <template is="class1" data="{{...item}}"></template>
+    </view>
+  </view>
+</view> -->
+
+<!-- <template is= "class1" ></template> -->
+
+<!-- 推荐课程 -->
+<template name='class1'>
+    <view class="recom-img">
+      <image src="../images/ae.jpg"></image>
+    </view>
+    <view class="class1-title">
+     sa
+    </view>
+    <view class="class1-info clear">
+      <view class="left count">
+        <text class="fa fa-user"></text>1024
+      </view>
+      <view class="right price">
+        ￥3000.00
+      </view>
+    </view>
+</template>
+<template is= "class1" ></template>
+

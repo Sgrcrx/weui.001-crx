@@ -1,0 +1,17 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "user/index",
+    "pages/logs/logs"
+   
+  ]
+  ,
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "陈融炫",
+    "navigationBarTextStyle": "black"
+  }
+  
+}

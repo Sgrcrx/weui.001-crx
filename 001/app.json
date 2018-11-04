@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "user/index",
+    "pages/index/view"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "陈融炫",
+    "navigationBarTextStyle": "black",
+    "backgroundColorBottom": "black"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#1AAD16",
+    "backgroundColor": "00ffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/icon/index.png",
+        "selectedIconPath": "pages/images/icon/index_active.png"
+      },
+      {
+        "pagePath": "pages/index/view",
+        "text": "课程",
+        "iconPath": "pages/images/icon/kec.png",
+        "selectedIconPath": "pages/images/icon/kec_active.png"
+      },
+      {
+        "pagePath": "user/index",
+        "text": "设置",
+        "iconPath": "pages/images/icon/sz.png",
+        "selectedIconPath": "pages/images/icon/sz_active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "老师",
+        "iconPath": "pages/images/icon/teacher.png",
+        "selectedIconPath": "pages/images/icon/teacher_active.png"
+      },
+      {
+        "pagePath": "user/index",
+        "text": "用户",
+        "iconPath": "pages/images/icon/user.png",
+        "selectedIconPath": "pages/images/icon/user_active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

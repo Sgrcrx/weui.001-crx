@@ -1,0 +1,16 @@
+<!--pages/index/view.wxml-->
+<view> {{ name }} </view>
+
+
+<view wx:for = "{{[1,2,3,4,5,6,7,8,9]}}" wx:for-index ="i" wx:for-item ="row">
+  <view wx:for = "{{[1,2,3,4,5,6,7,8,9]}}" wx:for-index ="j" wx:for-item ="cow">
+    <view wx:if = "{{i<=j}}">
+      {{row}}*{{cow}} = {{row*cow}}
+    </view>
+  </view>
+</view>
+
+<view >
+
+</view>
+

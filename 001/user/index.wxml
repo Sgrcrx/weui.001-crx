@@ -1,0 +1,5 @@
+<!--user/index.wxml-->
+<view class='crx01'>1</view>
+<view class='crx02'>2</view>
+<view class='crx03'>3</view>
+<view class='crx04'>4</view>

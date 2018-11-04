@@ -1,0 +1,19 @@
+<!-- 推荐课程 -->
+<template class='class1'>
+  
+    <view class="recom-img">
+      <image src="../images/ae.jpg"></image>
+    </view>
+    <view class="class1-title">
+     sa
+    </view>
+    <view class="class1-info clear">
+      <view class="left count">
+        <text class="fa fa-user"></text>1024
+      </view>
+      <view class="right price">
+        ￥3000.00
+      </view>
+    </view>
+  
+</template>

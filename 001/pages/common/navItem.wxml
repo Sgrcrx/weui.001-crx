@@ -1,0 +1,9 @@
+<!-- 快速导航元素模板 -->
+<template name="nav-item">
+  <view class="nav-item">
+    <view class="img-bg" style='background-color:{{bgc}}'>
+      <text class="fa fa-{{icon}}"></text>
+    </view>
+    <view class='title'>{{title}}</view>
+  </view>
+</template>

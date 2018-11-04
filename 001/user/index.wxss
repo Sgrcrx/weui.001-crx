@@ -1,0 +1,30 @@
+/* user/index.wxss */
+.crx01{
+ background-color: red;
+ float: left;
+ margin-left: 10rpx;
+ width: 100rpx;
+ height: 100rpx;
+}
+.crx02{
+ background-color: blue;
+ margin-left: 10rpx;
+ 
+ float: left;
+ width: 100rpx;
+ height: 100rpx;
+}
+.crx03{
+ margin-left: 10rpx;
+ background-color: violet;
+ float: left;
+ width: 100rpx;
+ height: 100rpx;
+}
+.crx04{
+ margin-left: 10rpx;
+ background-color: pink;
+ float: left;
+ width: 100rpx;
+ height: 100rpx;
+}
